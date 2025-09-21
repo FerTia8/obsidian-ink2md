@@ -3,7 +3,6 @@
 Convert handwritten notes and images into **clean Markdown** directly inside Obsidian using **Google Gemini OCR/HTR**. Tries to preserve structure and content.
 
 The purpose of this plugin is to bridge the gap between handwritten and typed notes. If, like me, you prefer annotating the old-fashioned way, this plugin lets you bring those notes into Obsidian so you can keep everything in one place and take advantage of Obsidian’s usual features.
----
 
 ## Features
 
@@ -11,7 +10,6 @@ The purpose of this plugin is to bridge the gap between handwritten and typed no
 - Works with images embedded in your vault (`![[note.png]]`)  
 - Powered by Google Gemini for high-quality recognition  
 - Output is inserted right below the image in your note  
----
 
 ## Installation
 
@@ -27,16 +25,12 @@ The purpose of this plugin is to bridge the gap between handwritten and typed no
 3. Copy the generated files (`main.js`, `manifest.json`) into your vault’s `.obsidian/plugins/` folder.
 4. Reload Obsidian.
 
----
-
 ## Setup
 
 This plugin currently supports **Google Gemini API** only. You’ll need an API key, which you can get from official sources. There's a free plan included, ence why it was chosen as the first supported LLM. Then, in Obsidian:
 
 1. Open **Settings → ink2md**.  
 2. Paste your API key into the field.  
-
----
 
 ## 🚀 Usage
 
@@ -45,15 +39,11 @@ This plugin currently supports **Google Gemini API** only. You’ll need an API 
 - Wait (few seconds usually).
 - The recognized text will appear below the image.  
 
----
-
-## ⚙️ Settings
+## Settings
 
 - **Gemini API Key** → Required to use the plugin.  
 
----
-
-## 🛠️ Development
+## Development
 
 If you want to hack on this plugin:
 
@@ -65,8 +55,6 @@ npm run dev
 ```
 
 Then reload Obsidian to test.  
-
----
 
 
 ## Acknowledgements
